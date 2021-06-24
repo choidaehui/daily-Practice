@@ -1,2 +1,2 @@
 # github Desktop
- DailyStudy
+ dailyStudy-practice
