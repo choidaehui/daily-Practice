@@ -1,11 +1,11 @@
 
 function loadItems() {
-  return fetch('./data/data.json')
+  return fetch('data/data.json')
   // fetch를 통해 해당 경로의 data.json 파일에 접근
-    .then(Response => Response.json())
+    .then(response => response.json())
     // .then을 통해 response을 받음
     // 받은 response를 json 형태로 변환
-    .then(JSON => JSON.items);
+    .then(json => json.items);
     // json에 있는 items만 받아오기
 }
 
