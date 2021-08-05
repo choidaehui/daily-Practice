@@ -84,7 +84,7 @@ button:hover {
   margin-right: 1rem;
 }
 
-.list ul {
+.items ul {
   list-style: none; 
   display: flex;
   flex-direction: column;
@@ -93,7 +93,7 @@ button:hover {
   overflow-y: scroll;
 }
 
-.list ul li {
+.items ul li {
   display: flex;
   align-items: center;
   width: 80vh;
@@ -103,7 +103,7 @@ button:hover {
   padding: 1rem;
 }
 
-.list ul li img {
+.items ul li img {
   padding-right: 1rem; 
 }
 
