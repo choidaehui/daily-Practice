@@ -1,0 +1,47 @@
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: brown;
+}
+
+#title {
+  margin-top: 50px;
+}
+
+#slide {
+  width: 650px;
+  position: relative;
+  margin: 0 auto; 
+}
+
+#pic_show {
+  position: absolute;
+}
+
+#pic_show img {
+  float: left;
+  width: 100%;
+}
+
+#pic_show button {
+  color: black;
+  font-size: 2em;
+  font-weight: 800;
+  background-color: black;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  opacity: 0.5;
+  border: none;
+  padding: 20px;
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
+}
+
