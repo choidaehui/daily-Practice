@@ -1,23 +1,19 @@
 
-const slide = document.querySelectorAll('#pic');
-console.log(slide);
-const prev = document.querySelector('#prev');
-const next = document.querySelector('#next');
 let current = 0;
 
-showSlide(current);
-
 function showSlide(n) {
-
+  const slide = document.querySelectorAll('.pic');
+  
   for (let i=0; i < slide.length; i++) {
-  slide[i].style.display = 'none';
+    slide[i].style.display = 'none';
   }
 
-  slide[n].style.display = 'block';
-  console.log(slide);
+    slide[n].style.display = 'block';
+    
 }
 
 function prevShow() {
+  const slide = document.querySelectorAll('.pic');
 
   if(current > 0) {
     current -= 1;
@@ -29,11 +25,12 @@ function prevShow() {
 }
 
 function nextShow() {
-
-  if(current < slide.length) {
+  const slide = document.querySelectorAll('.pic');
+  
+  if(current < slide.length-1) {
     current += 1;
   }
-  else {
+  else if(current === slide.length-1) {
     current = 0;
   }
   showSlide(current);  
