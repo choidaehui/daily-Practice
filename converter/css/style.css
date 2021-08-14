@@ -1,0 +1,75 @@
+
+body {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#title {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#select {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: brown;
+}
+
+#selectoption {
+  margin-left: 30px;
+  width: 200px;
+  height: 30px;
+  position: relative;
+  bottom: 5px; 
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(160, 44, 44);
+}
+
+#change {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgb(197, 197, 197);
+  padding: 50px;
+}
+
+input { 
+  text-align: right;
+  font-size: 1.5em;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#exchange {
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  background-color: rgb(197, 197, 197);
+}
+
+#content1 {
+  display: flex;
+  background-color: #ffff;
+  padding: 5px;
+}
+
+span {
+  font-size: 1.5em;
+}
+
+#content2 {
+  display: flex;
+  background-color: #ffff;
+  padding: 5px;
+}
+
+
+
