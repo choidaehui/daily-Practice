@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="src/converter.js"></script>
+  <title>단위 변환기</title>
+</head>
+<body>
+  <div id="wrapper">
+    <form action="">
+      <div id="title">
+        <label for="selectoption" id="select">단위변환기 선택</label>
+        <select id="selectoption" autofocus>
+          <option value="섭씨 &#8660; 화씨 온도 변환기" selected>섭씨 &#8660; 화씨 온도 변환기</option>
+          <option value="인치 &#8660; 센티미터">인치 &#8660; 센티미터</option>
+          <option value="&#13217; &#8660; 평">&#13217; &#8660; 평</option>
+        </select>
+      </div> 
+      <div id="change">
+        <div id="content1">
+          <input type="text" id="s-text" autocomplete="off">
+          <span id="s-unit">&#8451;</span>
+        </div>  
+          <button id="exchange">&#8660;</button>
+        <div id="content2">
+          <input type="text" id="f-text" autocomplete="off">
+          <span id="f-unit">&#8457;</span>
+        </div>                  
+      </div>
+    </form>    
+  </div>
+</body>
+</html>
